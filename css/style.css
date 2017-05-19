@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #000;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.header .logo{
+    width: 40%;
+    height: 100px;
+    float: left;
+     
+   
+}
+.header .logo h1{
+     color:#000;
+     margin: 20px 0px 20px 60px;
+}
+.header .menu{
+    width: 50%;
+    height: 80px;
+    float: right;
+    
+}
+.header .menu ul{
+    float:right;
+     margin: 20px 0 20px 0px;
+}
+.header .menu ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    
+    margin: 10px 0px 10px 0;
+}
+.header .menu ul li a{
+    color:#000;
+    font-size: 18px;
+    text-decoration: none;
+   border-right: 1px solid #000;
+padding: 0px 25px 0px 25px;
+}
+.slider{
+  width: 100%;
+    height:400px;
+        position:relative;
+}
+.slider img{
+    position: absolute;
+height: 100%;
+width: 100%;
+left: 0px;
+}
+.slider .slider_note{
+  z-index: 100;
+position: absolute;
+color: white;
+
+font-weight: bold;
+left: 300px;
+top: 20%;
+width: 800px;
+text-align: center;
+}
+
+.slider .slider_note h1{
+    margin-bottom: 20px;
+    color:black;
+    font-size: 40px;
+}
+.slider .slider_note p{
+     margin-bottom: 20px;
+    font-size: 18px;
+}
+.slider .slider_note button{
+     padding:5px 10px 5px 10px;
+     background-color:#1b9beb;
+     color:#fff;
+      font-size: 18px;
+    border-radius: 12px;
+}
+.section1{
+    width: 95.5%;
+    height: 400px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  
+}
+
+.section1 .col_one h3{
+    color:#fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+}
+.section1 .col_one p{
+    color:#fff;
+    margin-bottom: 20px;
+}
+.section1 .col_one,.col_two_three,.col_four{
+    margin:50px 51px 0px 0;
+    height: 100%;
+      width:21%;
+    float: left;
+}
+.section1 .col_two_three h3{
+    color:#fff;
+    border-bottom: 1px solid #fff;
+       margin-bottom: 15px;
+}
+.section1 .col_two_three ul li{
+   list-style: none;
+    display: inline-block;
+    text-align: center;
+    
+    margin: 3px 0px 0 0;
+}
+.section1 .col_two_three ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.section1 .col_four h3{
+     color:#fff;
+    border-bottom: 1px solid #fff;
+     margin-bottom: 15px;
+}
+.section1 .col_four img{
+    width:100%;
+    height:100px;
+    margin: 0 0 5px 0px;
+}
+.section1 .col_four p{
+    color:#fff;
+    margin-bottom: 20px;
+}
+.section1 .col_one button{
+     padding:5px 8px 5px 8px;
+     background-color:#1b9beb;
+     color:#fff;
+      font-size: 18px;
+    border-radius: 6px;
+}
+.section_two{
+  width: 91%;
+height: 300px;
+border-bottom: 2px dotted #000;
+margin: 0 0px 0 60px;
+}
+.section_two .left{
+  width: 100%;
+float: left;
+
+border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.section_two .left .client{
+width: 33%;
+height: 100%;
+    float:left;
+margin: 40px 0 40px 0;
+}
+
+.section_two .left .client img{
+    float:left;
+    width:40%;
+    height: 150px;
+    
+}
+.section_two .left .client p{
+     margin: 0px 20px 0 20px ;
+   width: 50%;
+    color:#fff;
+float: right;
+}
+.section_two .left .client h2{
+     
+   width: 50%;
+    margin: 0px 20px 20px 20px ;
+    color:#fff;
+float: right;
+}
+.section_three{
+     width: 91%;
+height: 220px;
+
+margin: 0 0px 0 60px;
+}
+.section_three .member{
+    position:relative;
+    width:13%;
+    float:left;
+    margin: 20px;
+    height: 180px;
+}
+.section_three .member img{
+    position: absolute;
+    height: 180px;
+    width: 100%;
+    
+}
+.section_three .member .description{
+    position: absolute;
+    top:80%;
+    background-color: azure;
+    opacity: 0.5;
+    width:100%;
+    height: 20%;
+    
+}
+.section_three .member .description h4{
+    color:#1b9beb;
+    margin-left: 10px;
+    
+}
+.footer_one {
+    width: 100%;
+    height: 80px;
+    background-color: #1b9beb;
+    margin-bottom: 5px;
+}
+.footer_one .right{
+    float: right;
+    margin:20px 30px 20px 0px;
+}
+.footer_one .right ul{
+    
+}
+.footer_one .right ul li{
+    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+}
+.footer_one .right ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+.footer_one .right p{
+    float:right;
+    color:#fff;
+    margin:5px  20px 0 0;
+}
+.footer_two{
+    width:100%;
+    height:10px;
+}
+.footer_two p{
+    color:#fff;
+    text-align: center;
+}
